@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from "react";
 
-import { IPropsSettingMap } from "./interfaces/interfaces";
+import { IPropsSettingMap } from "../interfaces/interfaces";
 import styles from "./SettingMap.module.scss";
 const SettingRoute = ({ flagPointsFunc }: IPropsSettingMap) => {
   const [isChecked, setIsChecked] = useState<boolean>(false);

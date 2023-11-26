@@ -2,9 +2,9 @@ import { ChangeEvent, useState } from "react";
 import {
   BaseSettingsKit,
   MySettingsKit,
-} from "../coreAlgorithmGetPoints/SettingsKit";
-import { DATA } from "../data/allData";
-import { IPropsMenuTop } from "./interfaces/interfaces";
+} from "../../coreAlgorithmGetPoints/SettingsKit";
+import { DATA } from "../../data/allData";
+import { IPropsMenuTop } from "../interfaces/interfaces";
 import styles from "./Menutop.module.scss";
 interface IOption {
   name: string;

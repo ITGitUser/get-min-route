@@ -1,4 +1,4 @@
-import { IPropsModalWindow } from "./interfaces/interfaces";
+import { IPropsModalWindow } from "../interfaces/interfaces";
 import styles from "./ModalWindow.module.scss";
 const ModalWindow = ({ setViewFunc, head, children }: IPropsModalWindow) => {
   const handleModalClick = (event: { target: any; currentTarget: any }) => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import useCalcRoute from "../hooks/useCalcRoute";
-import ModalWindow from "./ModalWindow";
-import { IPropsButtonCalcRoute } from "./interfaces/interfaces";
+import useCalcRoute from "../../hooks/useCalcRoute";
+import ModalWindow from "../ModalWindow/ModalWindow";
+import { IPropsButtonCalcRoute } from "../interfaces/interfaces";
 import styles from "./ButtonCalcRoute.module.scss";
 const ButtonCalcRoute = ({
   coords,

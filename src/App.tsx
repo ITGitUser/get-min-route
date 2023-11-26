@@ -1,16 +1,16 @@
 import { useState } from "react";
-import MapComponent from "./component/MapComponent";
-import MenuTop from "./component/MenuTop";
-import ButtonCalcRoute from "./component/ButtonCalcRoute";
+import MapComponent from "./component/MapComponent/MapComponent";
+import MenuTop from "./component/MenuTop/MenuTop";
+import ButtonCalcRoute from "./component/ButtonCalcRoute/ButtonCalcRoute";
 import { BaseSettingsKit } from "./coreAlgorithmGetPoints/SettingsKit";
 import { ISettingsKit } from "./coreAlgorithmGetPoints/ISettingsKit";
-import InfoRoute from "./component/InfoRoute";
+import InfoRoute from "./component/InfoRoute/InfoRoute";
 import { HelperMethods } from "./coreAlgorithmGetPoints/HelperMethods";
-import SettingRoute from "./component/SettingMap";
+import SettingRoute from "./component/SettingMap/SettingMap";
 import styles from "./App.module.scss";
-import Header from "./component/Header";
-import ModalWindow from "./component/ModalWindow";
-import About from "./component/About";
+import Header from "./component/Header/Header";
+import ModalWindow from "./component/ModalWindow/ModalWindow";
+import About from "./component/About/About";
 function App() {
   const helper = new HelperMethods();
   const [arrayCoordinate, setArrayCoordinate] = useState<number[][]>([]);

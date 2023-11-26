@@ -1,4 +1,4 @@
-import { IPropsInfoRoute } from "./interfaces/interfaces";
+import { IPropsInfoRoute } from "../interfaces/interfaces";
 import styles from "./InfoRoute.module.scss";
 const InfoRoute = ({ lengthPath, time, countCoords }: IPropsInfoRoute) => {
   return (

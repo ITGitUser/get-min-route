@@ -1,5 +1,5 @@
 import { YMaps, Map, Polyline, Placemark } from "react-yandex-maps";
-import { IPropsMapComponent } from "./interfaces/interfaces";
+import { IPropsMapComponent } from "../interfaces/interfaces";
 
 const MapComponent = ({
   coords,
