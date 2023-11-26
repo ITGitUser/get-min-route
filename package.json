@@ -2,6 +2,7 @@
   "name": "get-min-route",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://itgituser.github.io/get-min-route",
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.5",
     "@testing-library/jest-dom": "^5.17.0",
