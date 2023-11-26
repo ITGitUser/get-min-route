@@ -1,0 +1,27 @@
+.HeaderContainer {
+  background-color: #102826;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    margin: 0px;
+    color: rgb(80, 187, 180);
+  }
+  button {
+    border: none;
+    padding: 0.8em 0.8em 0.8em 0.8em;
+    border-radius: 0.5em;
+    min-width: 100px;
+    background-color: #236863;
+
+    font-family: Nunito;
+    font-weight: 700;
+    color: rgb(80, 187, 180);
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: #288982;
+  }
+}
