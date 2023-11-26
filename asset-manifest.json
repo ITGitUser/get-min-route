@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/get-min-route/static/css/main.909fee60.css",
+    "main.js": "/get-min-route/static/js/main.53e07988.js",
+    "static/js/27.9f1990bc.chunk.js": "/get-min-route/static/js/27.9f1990bc.chunk.js",
+    "index.html": "/get-min-route/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.909fee60.css",
+    "static/js/main.53e07988.js"
+  ]
+}
